@@ -1,0 +1,7 @@
+<h1> {{num}}번째 게시물 본문</h1>
+<br>
+<h2>제목: {{details.title}}</h2>
+<p>날짜: {{details.pub_date}}</p>
+<p>본문 미리보기: {{details.body}}</p>
+<br>
+<a href="{% url 'delete' blog.id %}">삭제</a>

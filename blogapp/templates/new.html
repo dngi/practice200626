@@ -1,0 +1,12 @@
+<div class="container">
+    <form action="{% url 'create' %}">
+        <h4>제목: </h4>
+        <input type="text" name="title">
+        <br>
+        <h4>본문: </h4>
+        <textarea name="body" id="" cols="30" rows="10"></textarea>
+        <br>
+        <p>작성날짜와 시간은 자동으로 입력됩니다.</p>
+        <input class="btn btn-dark" type="submit" value="제출하기">
+    </form>
+</div>
